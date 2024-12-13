@@ -431,12 +431,32 @@ html {
 
 .partner__img {
     display: flex;
+    flex-wrap: wrap;
     max-width: 100%;
 }
 
+.partner__img img:nth-child(2) {
+    background-color: aliceblue;
+}
+
+.partner__img img:nth-child(6) {
+    padding: 15px;
+}
+
+.partner__img img:nth-child(7) {
+    padding: 10px;
+}
+
+.partner__img img:nth-child(9) {
+    background-color: aliceblue;
+}
+
+
 .partners {
     width: 20%;
+    height: 17vh;
     padding: 24px 16px;
+    margin-bottom: 22px;
 }
 
 
@@ -541,7 +561,7 @@ html {
     height: 32px;
     width: 32px;
     position: absolute;
-    top: 60%;
+    top: 51%;
     background-color: deepskyblue;
     font-size: 20px;
     border: none;
